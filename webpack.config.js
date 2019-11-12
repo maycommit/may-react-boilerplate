@@ -59,7 +59,7 @@ module.exports = {
     new webpack.HotModuleReplacementPlugin(),
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
-      title: 'Darwin',
+      title: 'Boilerplate',
       template: './src/index.html',
       favicon: './src/core/assets/img/favicon.ico',
       config: process.env.CONFIG_FILE || 'config',
